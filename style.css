@@ -1,0 +1,91 @@
+/* Box nero trasparente + posizionamento e grandezza */
+.casella{
+display:inline-block;
+box-sizing: border-box;
+border-radius: 2%;
+background-color: rgba(0,0,0,0.5);
+width: 64%;
+height:850px;
+margin-top: 1.5%;
+margin-left: 18%;
+}
+/* Immagine di sfondo  */
+body {
+  background-image: url(background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Ridimensionamento del logo */
+#logo{
+  width: 215px;
+  height:auto;
+  margin-top:7.8%;
+}
+/* Colore titolo */
+#titolo{
+  color: #32CD32;
+  font-family: 'Anek Latin', sans-serif;
+  font-family: 'League Gothic', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* Posizionamento e centramento degli elementi dell'header */
+.blocco1{
+  display:block;
+  text-align: center;
+  margin: 0px auto;
+}
+/* Colore e posizione barra di navigazione */
+#nav1{
+  display: inline-block;
+  background-color: #32CD32;
+  width:80%;
+  height: auto;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 0.75%;
+  padding-bottom: 0.75%;
+}
+/* Impaginazione e impostazioni generali tag: sezione */
+.sezione{
+  font-family: 'Anek Latin', sans-serif;
+  font-family: 'League Gothic', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  margin-left: 10%;
+}
+.titolo2{
+  display: inline-block;
+}
+/* Impostazioni e modifiche stato carica */
+hr{
+  padding-top: 1.5%;
+  padding-bottom: 1.5% ;
+  border-radius: 5px;
+  border: 0px;
+  margin-right: 80%;
+  display: block;
+}
+#hr1{
+width: 40%;
+background-color: orange;
+}
+
+#hr2{
+width: 60%;
+background-color: green;
+}
+
+#hr3{
+width: 20%;
+background-color: red;
+
+}
+/* Modifica testo Crediti */
+#crediti{
+  font-family: 'Anek Latin', sans-serif;
+  font-family: 'League Gothic', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color: orange;
+  display: block;
+  text-align: center;
+}
